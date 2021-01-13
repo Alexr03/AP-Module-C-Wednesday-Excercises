@@ -1,2 +1,2 @@
 language = "cpp"
-run = "mkdir -p build && cd build && cmake ../ && cmake --build . && mv primers_portfolio_Alexr03 ../primers_portfolio_Alexr03 && cd .. && ./primers_portfolio_Alexr03"
+run = "mkdir -p build && cd build && cmake ../ && cmake --build . && mv AdaAdvancedProgramming_1 ../AdaAdvancedProgramming_1 && cd .. && ./AdaAdvancedProgramming_1"
