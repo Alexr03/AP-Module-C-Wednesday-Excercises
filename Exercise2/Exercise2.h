@@ -9,7 +9,10 @@
 #include "../Exercise.h"
 
 class Exercise2 : public Exercise {
+public:
+    void execute() override;
 
+    std::string name() override;
 };
 
 

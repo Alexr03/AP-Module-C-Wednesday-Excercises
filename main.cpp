@@ -4,6 +4,7 @@
 #include "iostream"
 #include "Helpers/iohelper.h"
 #include "Exercise.h"
+#include "Exercise2/Exercise2.h"
 
 std::vector<Exercise *> getExercises();
 
@@ -29,6 +30,7 @@ std::vector<Exercise *> getExercises() {
     // Add all the exercises to the vector menu system.
     std::list<Exercise *> exercises;
     exercises.push_back(new Exercise1());
+    exercises.push_back(new Exercise2());
 
     vector<Exercise *> vectorExercises(exercises.begin(), exercises.end());
     return vectorExercises;
