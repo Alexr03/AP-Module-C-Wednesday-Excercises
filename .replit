@@ -1,0 +1,2 @@
+language = "cpp"
+run = "cd build && cmake ../ && cmake --build . && mv primers_portfolio_Alexr03 ../primers_portfolio_Alexr03 && cd .. && ./primers_portfolio_Alexr03"
