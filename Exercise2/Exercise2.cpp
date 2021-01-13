@@ -5,7 +5,6 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include <vector>
 #include "Exercise2.h"
 #include "../Helpers/iohelper.h"
 
