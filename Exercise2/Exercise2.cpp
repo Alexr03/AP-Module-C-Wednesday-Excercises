@@ -21,8 +21,7 @@ void Exercise2::execute() {
         }
 
         cout << "Updating file..." << endl;
-
-        file << name << "," << endl;
+        file << "\"" << name << "\"," << endl;
 
         string again = iohelper::getInput("Add another (y/n)");
         if(again == "n"){
@@ -30,7 +29,6 @@ void Exercise2::execute() {
             return;
         }
     }
-
 }
 
 std::string Exercise2::name() {
