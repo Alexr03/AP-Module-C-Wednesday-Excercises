@@ -25,7 +25,7 @@ void Exercise3::execute() {
 
     file.close();
 
-    cout << "Total number of lines read: " << (lineNum - 1)
+    cout << "Total number of lines read: " << (lineNum - 1);
 }
 
 std::string Exercise3::name() {
