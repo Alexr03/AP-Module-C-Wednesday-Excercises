@@ -4,6 +4,7 @@
 
 #include <time.h>
 #include <ctime>
+#include <sys/stat.h>
 #include "Exercise1.h"
 #include "../Helpers/iohelper.h"
 
