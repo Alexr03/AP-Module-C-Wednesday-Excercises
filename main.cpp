@@ -5,6 +5,7 @@
 #include "Helpers/iohelper.h"
 #include "Exercise.h"
 #include "Exercise2/Exercise2.h"
+#include "Exercise3/Exercise3.h"
 
 std::vector<Exercise *> getExercises();
 
@@ -31,6 +32,7 @@ std::vector<Exercise *> getExercises() {
     std::list<Exercise *> exercises;
     exercises.push_back(new Exercise1());
     exercises.push_back(new Exercise2());
+    exercises.push_back(new Exercise3());
 
     vector<Exercise *> vectorExercises(exercises.begin(), exercises.end());
     return vectorExercises;
